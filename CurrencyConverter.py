@@ -142,8 +142,4 @@ class CurrencyConverterApp(QtWidgets.QMainWindow):
         except ValueError as e:
             raise RuntimeError(f"Data error: {str(e)}")
 
-if __name__ == "__main__":
-    app = QtWidgets.QApplication(sys.argv)
-    window = CurrencyConverterApp()
-    window.show()
-    sys.exit(app.exec())
+
