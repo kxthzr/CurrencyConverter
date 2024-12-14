@@ -3,6 +3,9 @@ from PyQt6 import QtWidgets
 from CurrencyConverter import CurrencyConverterApp
 
 if __name__ == "__main__":
+"""
+Main function to initialize and run the CurrencyConverter App.
+"""
     app = QtWidgets.QApplication(sys.argv)
     window = CurrencyConverterApp()
     window.show()
